@@ -58,7 +58,7 @@
                 "layout": "vertical",
                 "width": "100%",
                 "cornerRadius": "12px",
-                "borderWidth": "2px",
+                "borderWidth": "0px",
                 "borderColor": "#6C5A33",
                 "action": {
                   "type": "uri",
