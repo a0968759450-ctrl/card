@@ -37,13 +37,10 @@
                 { "type": "text", "text": "07-3747139", "color": "#F5F3EE", "size": "sm", "flex": 7 } ] },
               { "type": "box", "layout": "baseline", "contents": [
                 { "type": "text", "text": "MAIL", "color": "#1EC8F5", "size": "xxs", "weight": "bold", "flex": 2 },
-                { "type": "text", "text": "PKS@sign.com.tw", "color": "#F5F3EE", "size": "sm", "flex": 7 } ] },
+                { "type": "text", "text": "pks@sign.com.tw", "color": "#F5F3EE", "size": "sm", "flex": 7 } ] },
               { "type": "box", "layout": "baseline", "contents": [
                 { "type": "text", "text": "OPEN", "color": "#1EC8F5", "size": "xxs", "weight": "bold", "flex": 2 },
-                { "type": "text", "text": "週一至週五 08:30–17:30\n國定假日公休", "color": "#A9B0C7", "size": "sm", "flex": 7, "wrap": true } ] },
-              { "type": "box", "layout": "baseline", "contents": [
-                { "type": "text", "text": "LINE", "color": "#1EC8F5", "size": "xxs", "weight": "bold", "flex": 2 },
-                { "type": "text", "text": "ID：3723159", "color": "#FF3DA8", "size": "sm", "weight": "bold", "flex": 7 } ] }
+                { "type": "text", "text": "週一至週五 08:30–17:30\n國定假日公休", "color": "#A9B0C7", "size": "sm", "flex": 7, "wrap": true } ] }
             ]
           }
         ]
@@ -166,25 +163,16 @@
               { "type": "image", "url": "https://a0968759450-ctrl.github.io/card/pks2.jpg", "size": "full", "aspectRatio": "1:1", "aspectMode": "cover",
                 "action": { "type": "uri", "label": "看大圖", "uri": "https://a0968759450-ctrl.github.io/card/pks2.jpg" } },
               { "type": "image", "url": "https://a0968759450-ctrl.github.io/card/pks3.jpg", "size": "full", "aspectRatio": "1:1", "aspectMode": "cover",
-                "action": { "type": "uri", "label": "看大圖", "uri": "https://a0968759450-ctrl.github.io/card/pks3.jpg" } } ] } ] },
-          { "type": "box", "layout": "vertical", "margin": "lg", "paddingAll": "14px",
-            "backgroundColor": "#121A33", "cornerRadius": "12px", "borderWidth": "1px", "borderColor": "#26304F",
-            "contents": [
-              { "type": "text", "text": "看到喜歡的作品？", "color": "#F5F3EE", "size": "sm", "weight": "bold" },
-              { "type": "text", "text": "歡迎來電或加 LINE 詢問報價", "color": "#A9B0C7", "size": "xs", "margin": "xs", "wrap": true } ] }
+                "action": { "type": "uri", "label": "看大圖", "uri": "https://a0968759450-ctrl.github.io/card/pks3.jpg" } } ] } ] }
         ]
       },
       "footer": {
-        "type": "box", "layout": "horizontal", "spacing": "md", "paddingAll": "16px", "paddingTop": "0px",
+        "type": "box", "layout": "vertical", "paddingAll": "16px", "paddingTop": "0px",
         "contents": [
           { "type": "box", "layout": "vertical", "cornerRadius": "11px", "borderWidth": "3px", "borderColor": "#6C2259",
             "action": { "type": "uri", "label": "撥打電話", "uri": "tel:073723159" },
             "contents": [ { "type": "box", "layout": "vertical", "cornerRadius": "8px", "borderWidth": "2px", "borderColor": "#FF3DA8", "paddingAll": "9px",
-              "contents": [ { "type": "text", "text": "撥打電話", "color": "#FF3DA8", "size": "sm", "weight": "bold", "align": "center" } ] } ] },
-          { "type": "box", "layout": "vertical", "cornerRadius": "11px", "borderWidth": "3px", "borderColor": "#085938",
-            "action": { "type": "uri", "label": "加 LINE 好友", "uri": "https://line.me/ti/p/~3723159" },
-            "contents": [ { "type": "box", "layout": "vertical", "cornerRadius": "8px", "borderWidth": "2px", "borderColor": "#06C755", "paddingAll": "9px",
-              "contents": [ { "type": "text", "text": "加 LINE 好友", "color": "#06C755", "size": "sm", "weight": "bold", "align": "center" } ] } ] }
+              "contents": [ { "type": "text", "text": "撥打電話", "color": "#FF3DA8", "size": "sm", "weight": "bold", "align": "center" } ] } ] }
         ]
       },
       "styles": {
