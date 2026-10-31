@@ -4,854 +4,154 @@
     {
       "type": "bubble",
       "body": {
-        "type": "box",
-        "layout": "vertical",
-        "paddingAll": "20px",
+        "type": "box", "layout": "vertical", "paddingAll": "20px",
         "contents": [
+          { "type": "text", "size": "xs", "contents": [
+            { "type": "span", "text": "● ", "color": "#FF4FB1" },
+            { "type": "span", "text": "高雄分公司 雕刻部", "color": "#FFC94A", "weight": "bold" } ] },
+          { "type": "text", "text": "正詠資訊股份有限公司", "color": "#F5F3EE", "size": "xl", "weight": "bold", "margin": "sm" },
+          { "type": "box", "layout": "vertical", "contents": [], "height": "3px", "margin": "md", "cornerRadius": "2px",
+            "background": { "type": "linearGradient", "angle": "90deg", "startColor": "#FFC94A", "endColor": "#FF4FB1" } },
+          { "type": "box", "layout": "vertical", "margin": "lg", "alignItems": "center", "contents": [
+            { "type": "box", "layout": "vertical", "width": "100%", "cornerRadius": "12px", "borderWidth": "0px", "borderColor": "#6C5A33",
+              "action": { "type": "uri", "label": "看大圖", "uri": "https://www.sign.com.tw/UploadImages/20200108133118I0.jpg" },
+              "contents": [
+                { "type": "image", "url": "https://www.sign.com.tw/UploadImages/20200108133118I0.jpg", "size": "full", "aspectRatio": "4:3", "aspectMode": "fit", "backgroundColor": "#0A1024" } ] } ] },
           {
-            "type": "text",
-            "size": "xs",
+            "type": "box", "layout": "vertical", "margin": "lg", "paddingAll": "14px", "spacing": "sm",
+            "backgroundColor": "#121A33", "cornerRadius": "12px", "borderWidth": "1px", "borderColor": "#26304F",
             "contents": [
-              {
-                "type": "span",
-                "text": "● ",
-                "color": "#FF4FB1"
-              },
-              {
-                "type": "span",
-                "text": "高雄分公司 雕刻部",
-                "color": "#FFC94A",
-                "weight": "bold"
-              }
-            ]
-          },
-          {
-            "type": "text",
-            "text": "正詠資訊股份有限公司",
-            "color": "#F5F3EE",
-            "size": "xl",
-            "weight": "bold",
-            "margin": "sm"
-          },
-          {
-            "type": "box",
-            "layout": "vertical",
-            "contents": [],
-            "height": "3px",
-            "margin": "md",
-            "cornerRadius": "2px",
-            "background": {
-              "type": "linearGradient",
-              "angle": "90deg",
-              "startColor": "#FFC94A",
-              "endColor": "#FF4FB1"
-            }
-          },
-          {
-            "type": "box",
-            "layout": "vertical",
-            "margin": "lg",
-            "alignItems": "center",
-            "contents": [
-              {
-                "type": "box",
-                "layout": "vertical",
-                "width": "100%",
-                "cornerRadius": "12px",
-                "borderWidth": "0px",
-                "borderColor": "#6C5A33",
-                "action": {
-                  "type": "uri",
-                  "label": "看大圖",
-                  "uri": "https://www.sign.com.tw/UploadImages/20200108133118I0.jpg"
-                },
-                "contents": [
-                  {
-                    "type": "image",
-                    "url": "https://www.sign.com.tw/UploadImages/20200108133118I0.jpg",
-                    "size": "full",
-                    "aspectRatio": "4:3",
-                    "aspectMode": "fit",
-                    "backgroundColor": "#0A1024"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "type": "box",
-            "layout": "vertical",
-            "margin": "lg",
-            "paddingAll": "14px",
-            "spacing": "sm",
-            "backgroundColor": "#121A33",
-            "cornerRadius": "12px",
-            "borderWidth": "1px",
-            "borderColor": "#26304F",
-            "contents": [
-              {
-                "type": "box",
-                "layout": "baseline",
-                "contents": [
-                  {
-                    "type": "text",
-                    "text": "ADDR",
-                    "color": "#FFC94A",
-                    "size": "xxs",
-                    "weight": "bold",
-                    "flex": 2
-                  },
-                  {
-                    "type": "text",
-                    "text": "(814)高雄市仁武區澄觀路250號",
-                    "color": "#F5F3EE",
-                    "size": "sm",
-                    "flex": 7,
-                    "wrap": true
-                  }
-                ]
-              },
-              {
-                "type": "box",
-                "layout": "baseline",
-                "contents": [
-                  {
-                    "type": "text",
-                    "text": "TEL",
-                    "color": "#FFC94A",
-                    "size": "xxs",
-                    "weight": "bold",
-                    "flex": 2
-                  },
-                  {
-                    "type": "text",
-                    "size": "sm",
-                    "flex": 7,
-                    "wrap": true,
-                    "contents": [
-                      {
-                        "type": "span",
-                        "text": "07-3723159",
-                        "color": "#F5F3EE"
-                      },
-                      {
-                        "type": "span",
-                        "text": "\n按 1 轉接雕刻部",
-                        "color": "#A9B0C7",
-                        "size": "xs"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "box",
-                "layout": "baseline",
-                "contents": [
-                  {
-                    "type": "text",
-                    "text": "FAX",
-                    "color": "#FFC94A",
-                    "size": "xxs",
-                    "weight": "bold",
-                    "flex": 2
-                  },
-                  {
-                    "type": "text",
-                    "text": "07-3747139",
-                    "color": "#F5F3EE",
-                    "size": "sm",
-                    "flex": 7
-                  }
-                ]
-              },
-              {
-                "type": "box",
-                "layout": "baseline",
-                "contents": [
-                  {
-                    "type": "text",
-                    "text": "MAIL",
-                    "color": "#FFC94A",
-                    "size": "xxs",
-                    "weight": "bold",
-                    "flex": 2
-                  },
-                  {
-                    "type": "text",
-                    "text": "eks@sign.com.tw",
-                    "color": "#F5F3EE",
-                    "size": "sm",
-                    "flex": 7
-                  }
-                ]
-              },
-              {
-                "type": "box",
-                "layout": "baseline",
-                "contents": [
-                  {
-                    "type": "text",
-                    "text": "OPEN",
-                    "color": "#FFC94A",
-                    "size": "xxs",
-                    "weight": "bold",
-                    "flex": 2
-                  },
-                  {
-                    "type": "text",
-                    "text": "週一至週五 08:30–17:30\n國定假日公休",
-                    "color": "#A9B0C7",
-                    "size": "sm",
-                    "flex": 7,
-                    "wrap": true
-                  }
-                ]
-              },
-              {
-                "type": "box",
-                "layout": "baseline",
-                "contents": [
-                  {
-                    "type": "text",
-                    "text": "LINE",
-                    "color": "#FFC94A",
-                    "size": "xxs",
-                    "weight": "bold",
-                    "flex": 2
-                  },
-                  {
-                    "type": "text",
-                    "text": "ID：3723159",
-                    "color": "#FF4FB1",
-                    "size": "sm",
-                    "weight": "bold",
-                    "flex": 7
-                  }
-                ]
-              }
+              { "type": "box", "layout": "baseline", "contents": [
+                { "type": "text", "text": "ADDR", "color": "#FFC94A", "size": "xxs", "weight": "bold", "flex": 2 },
+                { "type": "text", "text": "(814)高雄市仁武區澄觀路250號", "color": "#F5F3EE", "size": "sm", "flex": 7, "wrap": true } ] },
+              { "type": "box", "layout": "baseline", "contents": [
+                { "type": "text", "text": "TEL", "color": "#FFC94A", "size": "xxs", "weight": "bold", "flex": 2 },
+                { "type": "text", "size": "sm", "flex": 7, "wrap": true, "contents": [
+                  { "type": "span", "text": "07-3723159", "color": "#F5F3EE" },
+                  { "type": "span", "text": "\n按 1 轉接雕刻部", "color": "#A9B0C7", "size": "xs" } ] } ] },
+              { "type": "box", "layout": "baseline", "contents": [
+                { "type": "text", "text": "FAX", "color": "#FFC94A", "size": "xxs", "weight": "bold", "flex": 2 },
+                { "type": "text", "text": "07-3747139", "color": "#F5F3EE", "size": "sm", "flex": 7 } ] },
+              { "type": "box", "layout": "baseline", "contents": [
+                { "type": "text", "text": "MAIL", "color": "#FFC94A", "size": "xxs", "weight": "bold", "flex": 2 },
+                { "type": "text", "text": "eks@sign.com.tw", "color": "#F5F3EE", "size": "sm", "flex": 7 } ] },
+              { "type": "box", "layout": "baseline", "contents": [
+                { "type": "text", "text": "OPEN", "color": "#FFC94A", "size": "xxs", "weight": "bold", "flex": 2 },
+                { "type": "text", "text": "週一至週五 08:30–17:30\n國定假日公休", "color": "#A9B0C7", "size": "sm", "flex": 7, "wrap": true } ] },
+              { "type": "box", "layout": "baseline", "contents": [
+                { "type": "text", "text": "LINE", "color": "#FFC94A", "size": "xxs", "weight": "bold", "flex": 2 },
+                { "type": "text", "text": "ID：3723159", "color": "#FF4FB1", "size": "sm", "weight": "bold", "flex": 7 } ] }
             ]
           }
         ]
       },
       "footer": {
-        "type": "box",
-        "layout": "horizontal",
-        "spacing": "md",
-        "paddingAll": "16px",
-        "paddingTop": "0px",
+        "type": "box", "layout": "horizontal", "spacing": "md", "paddingAll": "16px", "paddingTop": "0px",
         "contents": [
-          {
-            "type": "box",
-            "layout": "vertical",
-            "cornerRadius": "11px",
-            "borderWidth": "3px",
-            "borderColor": "#6C295C",
-            "action": {
-              "type": "uri",
-              "label": "撥打電話",
-              "uri": "tel:073723159"
-            },
-            "contents": [
-              {
-                "type": "box",
-                "layout": "vertical",
-                "cornerRadius": "8px",
-                "borderWidth": "2px",
-                "borderColor": "#FF4FB1",
-                "paddingAll": "9px",
-                "contents": [
-                  {
-                    "type": "text",
-                    "text": "撥打電話",
-                    "color": "#FF4FB1",
-                    "size": "sm",
-                    "weight": "bold",
-                    "align": "center"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "type": "box",
-            "layout": "vertical",
-            "cornerRadius": "11px",
-            "borderWidth": "3px",
-            "borderColor": "#6C5A33",
-            "action": {
-              "type": "uri",
-              "label": "地圖導航",
-              "uri": "https://www.google.com/maps/search/?api=1&query=%E9%AB%98%E9%9B%84%E5%B8%82%E4%BB%81%E6%AD%A6%E5%8D%80%E6%BE%84%E8%A7%80%E8%B7%AF250%E8%99%9F"
-            },
-            "contents": [
-              {
-                "type": "box",
-                "layout": "vertical",
-                "cornerRadius": "8px",
-                "borderWidth": "2px",
-                "borderColor": "#FFC94A",
-                "paddingAll": "9px",
-                "contents": [
-                  {
-                    "type": "text",
-                    "text": "地圖導航",
-                    "color": "#FFC94A",
-                    "size": "sm",
-                    "weight": "bold",
-                    "align": "center"
-                  }
-                ]
-              }
-            ]
-          }
+          { "type": "box", "layout": "vertical", "cornerRadius": "11px", "borderWidth": "3px", "borderColor": "#6C295C",
+            "action": { "type": "uri", "label": "撥打電話", "uri": "tel:073723159" },
+            "contents": [ { "type": "box", "layout": "vertical", "cornerRadius": "8px", "borderWidth": "2px", "borderColor": "#FF4FB1", "paddingAll": "9px",
+              "contents": [ { "type": "text", "text": "撥打電話", "color": "#FF4FB1", "size": "sm", "weight": "bold", "align": "center" } ] } ] },
+          { "type": "box", "layout": "vertical", "cornerRadius": "11px", "borderWidth": "3px", "borderColor": "#6C5A33",
+            "action": { "type": "uri", "label": "地圖導航", "uri": "https://www.google.com/maps/search/?api=1&query=%E9%AB%98%E9%9B%84%E5%B8%82%E4%BB%81%E6%AD%A6%E5%8D%80%E6%BE%84%E8%A7%80%E8%B7%AF250%E8%99%9F" },
+            "contents": [ { "type": "box", "layout": "vertical", "cornerRadius": "8px", "borderWidth": "2px", "borderColor": "#FFC94A", "paddingAll": "9px",
+              "contents": [ { "type": "text", "text": "地圖導航", "color": "#FFC94A", "size": "sm", "weight": "bold", "align": "center" } ] } ] }
         ]
       },
       "styles": {
-        "body": {
-          "backgroundColor": "#0A1024"
-        },
-        "footer": {
-          "backgroundColor": "#0A1024"
-        }
+        "body": { "backgroundColor": "#0A1024" },
+        "footer": { "backgroundColor": "#0A1024" }
       }
     },
     {
       "type": "bubble",
       "body": {
-        "type": "box",
-        "layout": "vertical",
-        "paddingAll": "20px",
+        "type": "box", "layout": "vertical", "paddingAll": "20px",
         "contents": [
+          { "type": "text", "size": "xs", "contents": [
+            { "type": "span", "text": "● ", "color": "#FF4FB1" },
+            { "type": "span", "text": "PROFESSIONAL CNC", "color": "#FFC94A", "weight": "bold" } ] },
+          { "type": "text", "text": "雕刻代工事業部", "color": "#F5F3EE", "size": "xl", "weight": "bold", "margin": "sm" },
+          { "type": "text", "text": "CNC 切割／雕刻代工", "color": "#FF4FB1", "size": "sm", "weight": "bold", "margin": "xs" },
+          { "type": "box", "layout": "vertical", "contents": [], "height": "3px", "margin": "md", "cornerRadius": "2px",
+            "background": { "type": "linearGradient", "angle": "90deg", "startColor": "#FFC94A", "endColor": "#FF4FB1" } },
+          { "type": "box", "layout": "baseline", "margin": "lg", "contents": [
+            { "type": "text", "text": "📌 作品集", "color": "#FFC94A", "size": "xs", "weight": "bold" },
+            { "type": "text", "text": "點照片看大圖", "color": "#A9B0C7", "size": "xxs", "align": "end" } ] },
+          { "type": "box", "layout": "horizontal", "margin": "sm", "spacing": "3px", "cornerRadius": "12px", "borderWidth": "2px", "borderColor": "#6C5A33", "contents": [
+            { "type": "image", "url": "https://www.sign.com.tw/UploadImages/20200518112359I5.jpg", "flex": 2, "size": "full", "aspectRatio": "59:60", "aspectMode": "cover",
+              "action": { "type": "uri", "label": "看大圖", "uri": "https://www.sign.com.tw/UploadImages/20200518112359I5.jpg" } },
+            { "type": "box", "layout": "vertical", "flex": 1, "spacing": "3px", "contents": [
+              { "type": "image", "url": "https://a0968759450-ctrl.github.io/card/CNC1.jpg", "size": "full", "aspectRatio": "1:1", "aspectMode": "cover",
+                "action": { "type": "uri", "label": "看大圖", "uri": "https://a0968759450-ctrl.github.io/card/CNC1.jpg" } },
+              { "type": "image", "url": "https://a0968759450-ctrl.github.io/card/CNC2.jpg", "size": "full", "aspectRatio": "1:1", "aspectMode": "cover",
+                "action": { "type": "uri", "label": "看大圖", "uri": "https://a0968759450-ctrl.github.io/card/CNC2.jpg" } } ] } ] },
           {
-            "type": "text",
-            "size": "xs",
+            "type": "box", "layout": "vertical", "margin": "lg", "spacing": "sm",
             "contents": [
-              {
-                "type": "span",
-                "text": "● ",
-                "color": "#FF4FB1"
-              },
-              {
-                "type": "span",
-                "text": "PROFESSIONAL CNC",
-                "color": "#FFC94A",
-                "weight": "bold"
-              }
-            ]
-          },
-          {
-            "type": "text",
-            "text": "雕刻代工事業部",
-            "color": "#F5F3EE",
-            "size": "xl",
-            "weight": "bold",
-            "margin": "sm"
-          },
-          {
-            "type": "text",
-            "text": "CNC 切割／雕刻代工",
-            "color": "#FF4FB1",
-            "size": "sm",
-            "weight": "bold",
-            "margin": "xs"
-          },
-          {
-            "type": "box",
-            "layout": "vertical",
-            "contents": [],
-            "height": "3px",
-            "margin": "md",
-            "cornerRadius": "2px",
-            "background": {
-              "type": "linearGradient",
-              "angle": "90deg",
-              "startColor": "#FFC94A",
-              "endColor": "#FF4FB1"
-            }
-          },
-          {
-            "type": "box",
-            "layout": "baseline",
-            "margin": "lg",
-            "contents": [
-              {
-                "type": "text",
-                "text": "📌 作品集",
-                "color": "#FFC94A",
-                "size": "xs",
-                "weight": "bold"
-              },
-              {
-                "type": "text",
-                "text": "點照片看大圖",
-                "color": "#A9B0C7",
-                "size": "xxs",
-                "align": "end"
-              }
-            ]
-          },
-          {
-            "type": "box",
-            "layout": "horizontal",
-            "margin": "sm",
-            "spacing": "3px",
-            "cornerRadius": "12px",
-            "borderWidth": "2px",
-            "borderColor": "#6C5A33",
-            "contents": [
-              {
-                "type": "image",
-                "url": "https://www.sign.com.tw/UploadImages/20200518112359I5.jpg",
-                "flex": 2,
-                "size": "full",
-                "aspectRatio": "59:60",
-                "aspectMode": "cover",
-                "action": {
-                  "type": "uri",
-                  "label": "看大圖",
-                  "uri": "https://www.sign.com.tw/UploadImages/20200518112359I5.jpg"
-                }
-              },
-              {
-                "type": "box",
-                "layout": "vertical",
-                "flex": 1,
-                "spacing": "3px",
-                "contents": [
-                  {
-                    "type": "image",
-                    "url": "https://www.sign.com.tw/UploadImages/20200518133756I3.jpg",
-                    "size": "full",
-                    "aspectRatio": "1:1",
-                    "aspectMode": "cover",
-                    "action": {
-                      "type": "uri",
-                      "label": "看大圖",
-                      "uri": "https://www.sign.com.tw/UploadImages/20200518133756I3.jpg"
-                    }
-                  },
-                  {
-                    "type": "image",
-                    "url": "https://www.sign.com.tw/UploadImages/20200807135744I8.jpg",
-                    "size": "full",
-                    "aspectRatio": "1:1",
-                    "aspectMode": "cover",
-                    "action": {
-                      "type": "uri",
-                      "label": "看大圖",
-                      "uri": "https://www.sign.com.tw/UploadImages/20200807135744I8.jpg"
-                    }
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "type": "box",
-            "layout": "vertical",
-            "margin": "lg",
-            "spacing": "sm",
-            "contents": [
-              {
-                "type": "box",
-                "layout": "horizontal",
-                "contents": [
-                  {
-                    "type": "text",
-                    "size": "sm",
-                    "wrap": true,
-                    "contents": [
-                      {
-                        "type": "span",
-                        "text": "01 ",
-                        "color": "#FFC94A",
-                        "weight": "bold"
-                      },
-                      {
-                        "type": "span",
-                        "text": "廣告立體字",
-                        "color": "#F5F3EE"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "text",
-                    "size": "sm",
-                    "wrap": true,
-                    "contents": [
-                      {
-                        "type": "span",
-                        "text": "02 ",
-                        "color": "#FFC94A",
-                        "weight": "bold"
-                      },
-                      {
-                        "type": "span",
-                        "text": "阿蘭字",
-                        "color": "#F5F3EE"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "box",
-                "layout": "horizontal",
-                "contents": [
-                  {
-                    "type": "text",
-                    "size": "sm",
-                    "wrap": true,
-                    "contents": [
-                      {
-                        "type": "span",
-                        "text": "03 ",
-                        "color": "#FFC94A",
-                        "weight": "bold"
-                      },
-                      {
-                        "type": "span",
-                        "text": "阿蘭諾＋泡棉字",
-                        "color": "#F5F3EE"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "text",
-                    "size": "sm",
-                    "wrap": true,
-                    "contents": [
-                      {
-                        "type": "span",
-                        "text": "04 ",
-                        "color": "#FFC94A",
-                        "weight": "bold"
-                      },
-                      {
-                        "type": "span",
-                        "text": "壓克力字",
-                        "color": "#F5F3EE"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "box",
-                "layout": "horizontal",
-                "contents": [
-                  {
-                    "type": "text",
-                    "size": "sm",
-                    "wrap": true,
-                    "contents": [
-                      {
-                        "type": "span",
-                        "text": "05 ",
-                        "color": "#FFC94A",
-                        "weight": "bold"
-                      },
-                      {
-                        "type": "span",
-                        "text": "壓克力＋泡棉字",
-                        "color": "#F5F3EE"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "text",
-                    "size": "sm",
-                    "wrap": true,
-                    "contents": [
-                      {
-                        "type": "span",
-                        "text": "06 ",
-                        "color": "#FFC94A",
-                        "weight": "bold"
-                      },
-                      {
-                        "type": "span",
-                        "text": "木材切割",
-                        "color": "#F5F3EE"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "box",
-                "layout": "horizontal",
-                "contents": [
-                  {
-                    "type": "text",
-                    "size": "sm",
-                    "wrap": true,
-                    "contents": [
-                      {
-                        "type": "span",
-                        "text": "07 ",
-                        "color": "#FFC94A",
-                        "weight": "bold"
-                      },
-                      {
-                        "type": "span",
-                        "text": "窗花",
-                        "color": "#F5F3EE"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "text",
-                    "size": "sm",
-                    "wrap": true,
-                    "contents": [
-                      {
-                        "type": "span",
-                        "text": "08 ",
-                        "color": "#FFC94A",
-                        "weight": "bold"
-                      },
-                      {
-                        "type": "span",
-                        "text": "木心板窗花切割",
-                        "color": "#F5F3EE"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "box",
-                "layout": "horizontal",
-                "contents": [
-                  {
-                    "type": "text",
-                    "size": "sm",
-                    "wrap": true,
-                    "contents": [
-                      {
-                        "type": "span",
-                        "text": "09 ",
-                        "color": "#FFC94A",
-                        "weight": "bold"
-                      },
-                      {
-                        "type": "span",
-                        "text": "木板立體圓雕刻",
-                        "color": "#F5F3EE"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "text",
-                    "size": "sm",
-                    "wrap": true,
-                    "contents": [
-                      {
-                        "type": "span",
-                        "text": "＋ ",
-                        "color": "#FF4FB1",
-                        "weight": "bold"
-                      },
-                      {
-                        "type": "span",
-                        "text": "其他歡迎洽詢",
-                        "color": "#A9B0C7"
-                      }
-                    ]
-                  }
-                ]
-              }
+              { "type": "box", "layout": "horizontal", "contents": [
+                { "type": "text", "size": "sm", "wrap": true, "contents": [ { "type": "span", "text": "01 ", "color": "#FFC94A", "weight": "bold" }, { "type": "span", "text": "廣告立體字", "color": "#F5F3EE" } ] },
+                { "type": "text", "size": "sm", "wrap": true, "contents": [ { "type": "span", "text": "02 ", "color": "#FFC94A", "weight": "bold" }, { "type": "span", "text": "阿蘭字", "color": "#F5F3EE" } ] } ] },
+              { "type": "box", "layout": "horizontal", "contents": [
+                { "type": "text", "size": "sm", "wrap": true, "contents": [ { "type": "span", "text": "03 ", "color": "#FFC94A", "weight": "bold" }, { "type": "span", "text": "阿蘭諾＋泡棉字", "color": "#F5F3EE" } ] },
+                { "type": "text", "size": "sm", "wrap": true, "contents": [ { "type": "span", "text": "04 ", "color": "#FFC94A", "weight": "bold" }, { "type": "span", "text": "壓克力字", "color": "#F5F3EE" } ] } ] },
+              { "type": "box", "layout": "horizontal", "contents": [
+                { "type": "text", "size": "sm", "wrap": true, "contents": [ { "type": "span", "text": "05 ", "color": "#FFC94A", "weight": "bold" }, { "type": "span", "text": "壓克力＋泡棉字", "color": "#F5F3EE" } ] },
+                { "type": "text", "size": "sm", "wrap": true, "contents": [ { "type": "span", "text": "06 ", "color": "#FFC94A", "weight": "bold" }, { "type": "span", "text": "木材切割", "color": "#F5F3EE" } ] } ] },
+              { "type": "box", "layout": "horizontal", "contents": [
+                { "type": "text", "size": "sm", "wrap": true, "contents": [ { "type": "span", "text": "07 ", "color": "#FFC94A", "weight": "bold" }, { "type": "span", "text": "窗花", "color": "#F5F3EE" } ] },
+                { "type": "text", "size": "sm", "wrap": true, "contents": [ { "type": "span", "text": "08 ", "color": "#FFC94A", "weight": "bold" }, { "type": "span", "text": "木心板窗花切割", "color": "#F5F3EE" } ] } ] },
+              { "type": "box", "layout": "horizontal", "contents": [
+                { "type": "text", "size": "sm", "wrap": true, "contents": [ { "type": "span", "text": "09 ", "color": "#FFC94A", "weight": "bold" }, { "type": "span", "text": "木板立體圓雕刻", "color": "#F5F3EE" } ] },
+                { "type": "text", "size": "sm", "wrap": true, "contents": [ { "type": "span", "text": "＋ ", "color": "#FF4FB1", "weight": "bold" }, { "type": "span", "text": "其他歡迎洽詢", "color": "#A9B0C7" } ] } ] }
             ]
           }
         ]
       },
       "footer": {
-        "type": "box",
-        "layout": "vertical",
-        "paddingAll": "16px",
-        "paddingTop": "0px",
+        "type": "box", "layout": "vertical", "paddingAll": "16px", "paddingTop": "0px",
         "contents": [
-          {
-            "type": "box",
-            "layout": "vertical",
-            "paddingAll": "12px",
-            "cornerRadius": "8px",
-            "background": {
-              "type": "linearGradient",
-              "angle": "90deg",
-              "startColor": "#FFC94A",
-              "endColor": "#FF4FB1"
-            },
-            "action": {
-              "type": "uri",
-              "label": "立即來電洽詢",
-              "uri": "tel:073723159"
-            },
-            "contents": [
-              {
-                "type": "text",
-                "text": "立即來電洽詢",
-                "color": "#0A1024",
-                "weight": "bold",
-                "align": "center"
-              }
-            ]
-          }
+          { "type": "box", "layout": "vertical", "paddingAll": "12px", "cornerRadius": "8px",
+            "background": { "type": "linearGradient", "angle": "90deg", "startColor": "#FFC94A", "endColor": "#FF4FB1" },
+            "action": { "type": "uri", "label": "立即來電洽詢", "uri": "tel:073723159" },
+            "contents": [ { "type": "text", "text": "立即來電洽詢", "color": "#0A1024", "weight": "bold", "align": "center" } ] }
         ]
       },
       "styles": {
-        "body": {
-          "backgroundColor": "#0A1024"
-        },
-        "footer": {
-          "backgroundColor": "#0A1024"
-        }
+        "body": { "backgroundColor": "#0A1024" },
+        "footer": { "backgroundColor": "#0A1024" }
       }
     },
     {
       "type": "bubble",
       "body": {
-        "type": "box",
-        "layout": "vertical",
-        "paddingAll": "20px",
+        "type": "box", "layout": "vertical", "paddingAll": "20px",
         "contents": [
-          {
-            "type": "text",
-            "size": "xs",
-            "contents": [
-              {
-                "type": "span",
-                "text": "● ",
-                "color": "#FF4FB1"
-              },
-              {
-                "type": "span",
-                "text": "LINE OFFICIAL",
-                "color": "#FFC94A",
-                "weight": "bold"
-              }
-            ]
-          },
-          {
-            "type": "text",
-            "text": "聯絡方式",
-            "color": "#F5F3EE",
-            "size": "xl",
-            "weight": "bold",
-            "margin": "sm"
-          },
-          {
-            "type": "box",
-            "layout": "vertical",
-            "contents": [],
-            "height": "3px",
-            "margin": "md",
-            "cornerRadius": "2px",
-            "background": {
-              "type": "linearGradient",
-              "angle": "90deg",
-              "startColor": "#FFC94A",
-              "endColor": "#FF4FB1"
-            }
-          },
-          {
-            "type": "box",
-            "layout": "vertical",
-            "margin": "xl",
-            "cornerRadius": "22px",
-            "borderWidth": "3px",
-            "borderColor": "#6C5A33",
-            "contents": [
-              {
-                "type": "box",
-                "layout": "vertical",
-                "cornerRadius": "19px",
-                "borderWidth": "2px",
-                "borderColor": "#FFC94A",
-                "paddingAll": "6px",
-                "contents": [
-                  {
-                    "type": "box",
-                    "layout": "vertical",
-                    "backgroundColor": "#FFFFFF",
-                    "cornerRadius": "13px",
-                    "paddingAll": "14px",
-                    "alignItems": "center",
-                    "contents": [
-                      {
-                        "type": "image",
-                        "url": "https://api.qrserver.com/v1/create-qr-code/?size=400x400&data=https://line.me/ti/p/~3723159",
-                        "size": "xl",
-                        "aspectRatio": "1:1",
-                        "aspectMode": "fit"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "type": "text",
-            "text": "歡迎掃描加入南部公司\n雕刻部 LINE 好友",
-            "color": "#F5F3EE",
-            "size": "md",
-            "weight": "bold",
-            "align": "center",
-            "wrap": true,
-            "margin": "lg"
-          }
+          { "type": "text", "size": "xs", "contents": [
+            { "type": "span", "text": "● ", "color": "#FF4FB1" },
+            { "type": "span", "text": "LINE OFFICIAL", "color": "#FFC94A", "weight": "bold" } ] },
+          { "type": "text", "text": "聯絡方式", "color": "#F5F3EE", "size": "xl", "weight": "bold", "margin": "sm" },
+          { "type": "box", "layout": "vertical", "contents": [], "height": "3px", "margin": "md", "cornerRadius": "2px",
+            "background": { "type": "linearGradient", "angle": "90deg", "startColor": "#FFC94A", "endColor": "#FF4FB1" } },
+          { "type": "box", "layout": "vertical", "margin": "xl", "cornerRadius": "22px", "borderWidth": "3px", "borderColor": "#6C5A33", "contents": [
+            { "type": "box", "layout": "vertical", "cornerRadius": "19px", "borderWidth": "2px", "borderColor": "#FFC94A", "paddingAll": "6px", "contents": [
+              { "type": "box", "layout": "vertical", "backgroundColor": "#FFFFFF", "cornerRadius": "13px", "paddingAll": "14px", "alignItems": "center", "contents": [
+                { "type": "image", "url": "https://api.qrserver.com/v1/create-qr-code/?size=400x400&data=https://line.me/ti/p/~3723159", "size": "xl", "aspectRatio": "1:1", "aspectMode": "fit" } ] } ] } ] },
+          { "type": "text", "text": "歡迎掃描加入南部公司\n雕刻部 LINE 好友", "color": "#F5F3EE", "size": "md", "weight": "bold", "align": "center", "wrap": true, "margin": "lg" }
         ]
       },
       "footer": {
-        "type": "box",
-        "layout": "vertical",
-        "paddingAll": "16px",
-        "paddingTop": "0px",
+        "type": "box", "layout": "vertical", "paddingAll": "16px", "paddingTop": "0px",
         "contents": [
-          {
-            "type": "box",
-            "layout": "vertical",
-            "cornerRadius": "11px",
-            "borderWidth": "3px",
-            "borderColor": "#085938",
-            "action": {
-              "type": "uri",
-              "label": "加 LINE 好友",
-              "uri": "https://line.me/ti/p/~3723159"
-            },
-            "contents": [
-              {
-                "type": "box",
-                "layout": "vertical",
-                "cornerRadius": "8px",
-                "borderWidth": "2px",
-                "borderColor": "#06C755",
-                "paddingAll": "9px",
-                "contents": [
-                  {
-                    "type": "text",
-                    "text": "加 LINE 好友",
-                    "color": "#06C755",
-                    "size": "sm",
-                    "weight": "bold",
-                    "align": "center"
-                  }
-                ]
-              }
-            ]
-          }
+          { "type": "box", "layout": "vertical", "cornerRadius": "11px", "borderWidth": "3px", "borderColor": "#085938",
+            "action": { "type": "uri", "label": "加 LINE 好友", "uri": "https://line.me/ti/p/~3723159" },
+            "contents": [ { "type": "box", "layout": "vertical", "cornerRadius": "8px", "borderWidth": "2px", "borderColor": "#06C755", "paddingAll": "9px",
+              "contents": [ { "type": "text", "text": "加 LINE 好友", "color": "#06C755", "size": "sm", "weight": "bold", "align": "center" } ] } ] }
         ]
       },
       "styles": {
-        "body": {
-          "backgroundColor": "#0A1024"
-        },
-        "footer": {
-          "backgroundColor": "#0A1024"
-        }
+        "body": { "backgroundColor": "#0A1024" },
+        "footer": { "backgroundColor": "#0A1024" }
       }
     }
   ]
