@@ -55,7 +55,7 @@
             "contents": [
               {
                 "type": "image",
-                "url": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?fit=crop&w=800&q=80&fm=jpg",
+                "url": "https://www.sign.com.tw/UploadImages/20200108133118I0.jpg",
                 "size": "full",
                 "aspectRatio": "16:9",
                 "aspectMode": "cover"
@@ -163,7 +163,7 @@
                   },
                   {
                     "type": "text",
-                    "text": "pks@sign.com.tw",
+                    "text": "eks@sign.com.tw",
                     "color": "#F5F3EE",
                     "size": "sm",
                     "flex": 7
