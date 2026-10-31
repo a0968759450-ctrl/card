@@ -139,6 +139,58 @@
         "body": { "backgroundColor": "#0A1024" },
         "footer": { "backgroundColor": "#0A1024" }
       }
+    },
+    {
+      "type": "bubble",
+      "body": {
+        "type": "box", "layout": "vertical", "paddingAll": "20px",
+        "contents": [
+          { "type": "text", "size": "xs", "contents": [
+            { "type": "span", "text": "■", "color": "#1EC8F5", "size": "xxs" },
+            { "type": "span", "text": "■", "color": "#FF3DA8", "size": "xxs" },
+            { "type": "span", "text": "■", "color": "#FFE600", "size": "xxs" },
+            { "type": "span", "text": "■ ", "color": "#4B5563", "size": "xxs" },
+            { "type": "span", "text": "PORTFOLIO", "color": "#1EC8F5", "weight": "bold" } ] },
+          { "type": "text", "text": "噴畫作品集", "color": "#F5F3EE", "size": "xl", "weight": "bold", "margin": "sm" },
+          { "type": "text", "text": "實際輸出成品", "color": "#FF3DA8", "size": "sm", "weight": "bold", "margin": "xs" },
+          { "type": "box", "layout": "horizontal", "margin": "md", "spacing": "2px", "height": "4px", "contents": [
+            { "type": "box", "layout": "vertical", "contents": [], "height": "4px", "cornerRadius": "1px", "backgroundColor": "#1EC8F5" },
+            { "type": "box", "layout": "vertical", "contents": [], "height": "4px", "cornerRadius": "1px", "backgroundColor": "#FF3DA8" },
+            { "type": "box", "layout": "vertical", "contents": [], "height": "4px", "cornerRadius": "1px", "backgroundColor": "#FFE600" },
+            { "type": "box", "layout": "vertical", "contents": [], "height": "4px", "cornerRadius": "1px", "backgroundColor": "#4B5563" } ] },
+          { "type": "text", "text": "點照片看大圖", "color": "#A9B0C7", "size": "xxs", "align": "end", "margin": "lg" },
+          { "type": "box", "layout": "horizontal", "margin": "sm", "spacing": "3px", "cornerRadius": "12px", "borderWidth": "2px", "borderColor": "#125A78", "contents": [
+            { "type": "image", "url": "https://a0968759450-ctrl.github.io/card/pks1.jpg", "flex": 2, "size": "full", "aspectRatio": "59:60", "aspectMode": "cover",
+              "action": { "type": "uri", "label": "看大圖", "uri": "https://a0968759450-ctrl.github.io/card/pks1.jpg" } },
+            { "type": "box", "layout": "vertical", "flex": 1, "spacing": "3px", "contents": [
+              { "type": "image", "url": "https://a0968759450-ctrl.github.io/card/pks2.jpg", "size": "full", "aspectRatio": "1:1", "aspectMode": "cover",
+                "action": { "type": "uri", "label": "看大圖", "uri": "https://a0968759450-ctrl.github.io/card/pks2.jpg" } },
+              { "type": "image", "url": "https://a0968759450-ctrl.github.io/card/pks3.jpg", "size": "full", "aspectRatio": "1:1", "aspectMode": "cover",
+                "action": { "type": "uri", "label": "看大圖", "uri": "https://a0968759450-ctrl.github.io/card/pks3.jpg" } } ] } ] },
+          { "type": "box", "layout": "vertical", "margin": "lg", "paddingAll": "14px",
+            "backgroundColor": "#121A33", "cornerRadius": "12px", "borderWidth": "1px", "borderColor": "#26304F",
+            "contents": [
+              { "type": "text", "text": "看到喜歡的作品？", "color": "#F5F3EE", "size": "sm", "weight": "bold" },
+              { "type": "text", "text": "歡迎來電或加 LINE 詢問報價", "color": "#A9B0C7", "size": "xs", "margin": "xs", "wrap": true } ] }
+        ]
+      },
+      "footer": {
+        "type": "box", "layout": "horizontal", "spacing": "md", "paddingAll": "16px", "paddingTop": "0px",
+        "contents": [
+          { "type": "box", "layout": "vertical", "cornerRadius": "11px", "borderWidth": "3px", "borderColor": "#6C2259",
+            "action": { "type": "uri", "label": "撥打電話", "uri": "tel:073723159" },
+            "contents": [ { "type": "box", "layout": "vertical", "cornerRadius": "8px", "borderWidth": "2px", "borderColor": "#FF3DA8", "paddingAll": "9px",
+              "contents": [ { "type": "text", "text": "撥打電話", "color": "#FF3DA8", "size": "sm", "weight": "bold", "align": "center" } ] } ] },
+          { "type": "box", "layout": "vertical", "cornerRadius": "11px", "borderWidth": "3px", "borderColor": "#085938",
+            "action": { "type": "uri", "label": "加 LINE 好友", "uri": "https://line.me/ti/p/~3723159" },
+            "contents": [ { "type": "box", "layout": "vertical", "cornerRadius": "8px", "borderWidth": "2px", "borderColor": "#06C755", "paddingAll": "9px",
+              "contents": [ { "type": "text", "text": "加 LINE 好友", "color": "#06C755", "size": "sm", "weight": "bold", "align": "center" } ] } ] }
+        ]
+      },
+      "styles": {
+        "body": { "backgroundColor": "#0A1024" },
+        "footer": { "backgroundColor": "#0A1024" }
+      }
     }
   ]
 }
