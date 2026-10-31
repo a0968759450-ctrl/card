@@ -51,14 +51,30 @@
             "type": "box",
             "layout": "vertical",
             "margin": "lg",
-            "cornerRadius": "12px",
+            "alignItems": "center",
             "contents": [
               {
-                "type": "image",
-                "url": "https://www.sign.com.tw/UploadImages/20200108133118I0.jpg",
-                "size": "full",
-                "aspectRatio": "16:9",
-                "aspectMode": "cover"
+                "type": "box",
+                "layout": "vertical",
+                "width": "100%",
+                "cornerRadius": "12px",
+                "borderWidth": "2px",
+                "borderColor": "#6C5A33",
+                "action": {
+                  "type": "uri",
+                  "label": "看大圖",
+                  "uri": "https://www.sign.com.tw/UploadImages/20200108133118I0.jpg"
+                },
+                "contents": [
+                  {
+                    "type": "image",
+                    "url": "https://www.sign.com.tw/UploadImages/20200108133118I0.jpg",
+                    "size": "full",
+                    "aspectRatio": "4:3",
+                    "aspectMode": "fit",
+                    "backgroundColor": "#0A1024"
+                  }
+                ]
               }
             ]
           },
