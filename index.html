@@ -3,55 +3,75 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>傳送雕刻部名片</title>
+<title>正詠資訊 名片傳送</title>
 <script src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
 <style>
   body { margin:0; min-height:100vh; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:16px;
          background:#0A1024; color:#F5F3EE; font-family:sans-serif; text-align:center; padding:0 20px; }
-  button { font-size:18px; font-weight:bold; padding:14px 28px; border:none; border-radius:10px;
+  #buttons { display:flex; flex-direction:column; gap:12px; }
+  button { width:260px; font-size:18px; font-weight:bold; padding:14px 0; border:none; border-radius:10px;
            background:linear-gradient(90deg,#FFC94A,#FF4FB1); color:#0A1024; }
   button:disabled { opacity:.4; }
   #msg { font-size:14px; color:#A9B0C7; }
 </style>
 </head>
 <body>
-  <h2>正詠資訊 雕刻部名片</h2>
-  <button id="share" disabled>選擇聊天室並傳送</button>
+  <h2>正詠資訊 名片傳送</h2>
+  <div id="buttons"></div>
   <div id="msg">載入中…</div>
 <script>
-  const LIFF_ID = '2012307452-ME8hzG6M';   // ← 下一步拿到 LIFF ID 後只要改這一行
-  const ALT_TEXT = '正詠資訊 高雄分公司雕刻部｜聯絡資訊';
+  const LIFF_ID = '貼上你的 LIFF ID';   // ← 換回你原本的 LIFF ID
 
-  const btn = document.getElementById('share');
+  // ===== 名片清單：以後要加新卡片，在這裡多加一行 =====
+  const CARDS = [
+    { file: 'card.json',  label: '傳送雕刻部名片', altText: '正詠資訊 高雄分公司雕刻部｜聯絡資訊' },
+    { file: 'print.json', label: '傳送噴畫部名片', altText: '正詠資訊 高雄分公司噴畫部｜聯絡資訊與材質' },
+  ];
+
   const msg = document.getElementById('msg');
-  let card = null;
+  const box = document.getElementById('buttons');
 
-  // 讀取同一個資料夾裡的 card.json（卡片內容）
-  fetch('card.json', { cache: 'no-store' })
-    .then(function (res) { return res.json(); })
-    .then(function (json) {
-      card = json;
-      return liff.init({ liffId: LIFF_ID });
-    })
-    .then(function () {
-      if (!liff.isLoggedIn()) { liff.login(); return; }
-      if (!liff.isApiAvailable('shareTargetPicker')) {
-        msg.textContent = '無法使用分享功能：請更新 LINE，或確認 LIFF 設定已開啟 shareTargetPicker';
-        return;
-      }
-      btn.disabled = false;
-      msg.textContent = '';
-    })
-    .catch(function (err) { msg.textContent = '載入失敗：' + err; });
-
-  btn.addEventListener('click', function () {
-    liff.shareTargetPicker(
-      [{ type: 'flex', altText: ALT_TEXT, contents: card }],
-      { isMultiple: true }
-    ).then(function (res) {
-      msg.textContent = res ? '已傳送！' : '已取消';
-    }).catch(function (err) { msg.textContent = '傳送失敗：' + err; });
+  // 依照清單產生按鈕
+  CARDS.forEach(function (card) {
+    const b = document.createElement('button');
+    b.textContent = card.label;
+    b.disabled = true;
+    b.addEventListener('click', function () {
+      liff.shareTargetPicker(
+        [{ type: 'flex', altText: card.altText, contents: card.contents }],
+        { isMultiple: true }
+      ).then(function (res) {
+        msg.textContent = res ? '已傳送！' : '已取消';
+      }).catch(function (err) { msg.textContent = '傳送失敗：' + err; });
+    });
+    card.button = b;
+    box.appendChild(b);
   });
+
+  // 讀取每一份卡片；某一份有錯時，其他按鈕照樣可以用
+  Promise.all(CARDS.map(function (card) {
+    return fetch(card.file, { cache: 'no-store' })
+      .then(function (res) {
+        if (!res.ok) throw new Error('找不到檔案');
+        return res.json();
+      })
+      .then(function (json) { card.contents = json; })
+      .catch(function () { card.error = card.file + ' 讀取失敗'; });
+  }))
+  .then(function () { return liff.init({ liffId: LIFF_ID }); })
+  .then(function () {
+    if (!liff.isLoggedIn()) { liff.login(); return; }
+    if (!liff.isApiAvailable('shareTargetPicker')) {
+      msg.textContent = '無法使用分享功能：請更新 LINE，或確認 LIFF 設定已開啟 shareTargetPicker';
+      return;
+    }
+    const errors = [];
+    CARDS.forEach(function (card) {
+      if (card.error) { errors.push(card.error); } else { card.button.disabled = false; }
+    });
+    msg.textContent = errors.join('、');
+  })
+  .catch(function (err) { msg.textContent = '載入失敗：' + err; });
 </script>
 </body>
 </html>
