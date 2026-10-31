@@ -19,7 +19,7 @@
             { "type": "box", "layout": "vertical", "contents": [], "height": "4px", "cornerRadius": "1px", "backgroundColor": "#FFE600" },
             { "type": "box", "layout": "vertical", "contents": [], "height": "4px", "cornerRadius": "1px", "backgroundColor": "#4B5563" } ] },
           { "type": "box", "layout": "vertical", "margin": "lg", "cornerRadius": "12px", "contents": [
-            { "type": "image", "url": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?fit=crop&w=800&q=80&fm=jpg", "size": "full", "aspectRatio": "16:9", "aspectMode": "cover" } ] },
+            { "type": "image", "url": "https://a0968759450-ctrl.github.io/card/print-cover.jpg", "size": "full", "aspectRatio": "16:9", "aspectMode": "cover" } ] },
           {
             "type": "box", "layout": "vertical", "margin": "lg", "paddingAll": "14px", "spacing": "sm",
             "backgroundColor": "#121A33", "cornerRadius": "12px", "borderWidth": "1px", "borderColor": "#26304F",
