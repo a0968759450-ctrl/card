@@ -1,0 +1,184 @@
+{
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "body": {
+        "type": "box", "layout": "vertical", "paddingAll": "20px",
+        "contents": [
+          { "type": "text", "size": "xs", "contents": [
+            { "type": "span", "text": "■", "color": "#00A0E9", "size": "xxs" },
+            { "type": "span", "text": "■", "color": "#E4007F", "size": "xxs" },
+            { "type": "span", "text": "■", "color": "#FFE100", "size": "xxs" },
+            { "type": "span", "text": "■ ", "color": "#231F20", "size": "xxs" },
+            { "type": "span", "text": "高雄分公司 噴畫部", "color": "#1D4E89", "weight": "bold" } ] },
+          { "type": "text", "text": "正詠資訊股份有限公司", "color": "#0F2742", "size": "xl", "weight": "bold", "margin": "sm" },
+          { "type": "box", "layout": "horizontal", "margin": "md", "spacing": "2px", "height": "4px", "contents": [
+            { "type": "box", "layout": "vertical", "contents": [], "height": "4px", "cornerRadius": "1px", "backgroundColor": "#00A0E9" },
+            { "type": "box", "layout": "vertical", "contents": [], "height": "4px", "cornerRadius": "1px", "backgroundColor": "#E4007F" },
+            { "type": "box", "layout": "vertical", "contents": [], "height": "4px", "cornerRadius": "1px", "backgroundColor": "#FFE100" },
+            { "type": "box", "layout": "vertical", "contents": [], "height": "4px", "cornerRadius": "1px", "backgroundColor": "#231F20" } ] },
+          { "type": "box", "layout": "vertical", "margin": "lg", "cornerRadius": "12px", "contents": [
+            { "type": "image", "url": "https://a0968759450-ctrl.github.io/card/print-cover.jpg", "size": "full", "aspectRatio": "16:9", "aspectMode": "cover" } ] },
+          {
+            "type": "box", "layout": "vertical", "margin": "lg", "paddingAll": "14px", "spacing": "sm",
+            "backgroundColor": "#F3F6FA", "cornerRadius": "12px", "borderWidth": "1px", "borderColor": "#E2E8F0",
+            "contents": [
+              { "type": "box", "layout": "baseline", "contents": [
+                { "type": "text", "text": "ADDR", "color": "#1D4E89", "size": "xxs", "weight": "bold", "flex": 2 },
+                { "type": "text", "text": "(814)高雄市仁武區澄觀路250號", "color": "#0F2742", "size": "sm", "flex": 7, "wrap": true } ] },
+              { "type": "box", "layout": "baseline", "contents": [
+                { "type": "text", "text": "TEL", "color": "#1D4E89", "size": "xxs", "weight": "bold", "flex": 2 },
+                { "type": "text", "size": "sm", "flex": 7, "wrap": true, "contents": [
+                  { "type": "span", "text": "07-3723159", "color": "#0F2742" },
+                  { "type": "span", "text": "\n按 2 轉接噴畫部", "color": "#5B6B7F", "size": "xs" } ] } ] },
+              { "type": "box", "layout": "baseline", "contents": [
+                { "type": "text", "text": "FAX", "color": "#1D4E89", "size": "xxs", "weight": "bold", "flex": 2 },
+                { "type": "text", "text": "07-3747139", "color": "#0F2742", "size": "sm", "flex": 7 } ] },
+              { "type": "box", "layout": "baseline", "contents": [
+                { "type": "text", "text": "MAIL", "color": "#1D4E89", "size": "xxs", "weight": "bold", "flex": 2 },
+                { "type": "text", "text": "pks@sign.com.tw", "color": "#0F2742", "size": "sm", "flex": 7 } ] },
+              { "type": "box", "layout": "baseline", "contents": [
+                { "type": "text", "text": "OPEN", "color": "#1D4E89", "size": "xxs", "weight": "bold", "flex": 2 },
+                { "type": "text", "text": "週一至週五 08:30–17:30\n國定假日公休", "color": "#5B6B7F", "size": "sm", "flex": 7, "wrap": true } ] }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "type": "box", "layout": "horizontal", "spacing": "md", "paddingAll": "16px", "paddingTop": "0px",
+        "contents": [
+          { "type": "box", "layout": "vertical", "backgroundColor": "#1D4E89", "cornerRadius": "8px", "borderWidth": "1px", "borderColor": "#1D4E89", "paddingAll": "10px",
+            "action": { "type": "uri", "label": "撥打電話", "uri": "tel:073723159" },
+            "contents": [ { "type": "text", "text": "撥打電話", "color": "#FFFFFF", "size": "sm", "weight": "bold", "align": "center" } ] },
+          { "type": "box", "layout": "vertical", "backgroundColor": "#FFFFFF", "cornerRadius": "8px", "borderWidth": "1px", "borderColor": "#1D4E89", "paddingAll": "10px",
+            "action": { "type": "uri", "label": "地圖導航", "uri": "https://www.google.com/maps/search/?api=1&query=%E9%AB%98%E9%9B%84%E5%B8%82%E4%BB%81%E6%AD%A6%E5%8D%80%E6%BE%84%E8%A7%80%E8%B7%AF250%E8%99%9F" },
+            "contents": [ { "type": "text", "text": "地圖導航", "color": "#1D4E89", "size": "sm", "weight": "bold", "align": "center" } ] }
+        ]
+      },
+      "styles": {
+        "body": { "backgroundColor": "#FFFFFF" },
+        "footer": { "backgroundColor": "#FFFFFF" }
+      }
+    },
+    {
+      "type": "bubble",
+      "body": {
+        "type": "box", "layout": "vertical", "paddingAll": "16px",
+        "contents": [
+          { "type": "text", "size": "xs", "contents": [
+            { "type": "span", "text": "■", "color": "#00A0E9", "size": "xxs" },
+            { "type": "span", "text": "■", "color": "#E4007F", "size": "xxs" },
+            { "type": "span", "text": "■", "color": "#FFE100", "size": "xxs" },
+            { "type": "span", "text": "■ ", "color": "#231F20", "size": "xxs" },
+            { "type": "span", "text": "PROFESSIONAL PRINT", "color": "#1D4E89", "weight": "bold" } ] },
+          { "type": "text", "text": "噴畫材質一覽", "color": "#0F2742", "size": "xl", "weight": "bold", "margin": "sm" },
+          { "type": "text", "text": "戶外油性材質／布類材質", "color": "#5B6B7F", "size": "sm", "margin": "xs" },
+          { "type": "box", "layout": "horizontal", "margin": "md", "spacing": "2px", "height": "4px", "contents": [
+            { "type": "box", "layout": "vertical", "contents": [], "height": "4px", "cornerRadius": "1px", "backgroundColor": "#00A0E9" },
+            { "type": "box", "layout": "vertical", "contents": [], "height": "4px", "cornerRadius": "1px", "backgroundColor": "#E4007F" },
+            { "type": "box", "layout": "vertical", "contents": [], "height": "4px", "cornerRadius": "1px", "backgroundColor": "#FFE100" },
+            { "type": "box", "layout": "vertical", "contents": [], "height": "4px", "cornerRadius": "1px", "backgroundColor": "#231F20" } ] },
+
+          { "type": "text", "size": "sm", "margin": "lg", "contents": [
+            { "type": "span", "text": "■ ", "color": "#00A0E9" },
+            { "type": "span", "text": "戶外油性材質", "color": "#0F2742", "weight": "bold" } ] },
+          { "type": "separator", "margin": "sm", "color": "#E2E8F0" },
+          { "type": "box", "layout": "vertical", "margin": "md", "spacing": "sm", "contents": [
+            { "type": "text", "size": "xs", "wrap": true, "contents": [ { "type": "span", "text": "▸ ", "color": "#1D4E89" }, { "type": "span", "text": "UV噴墨海報紙不上P", "color": "#0F2742" } ] },
+            { "type": "box", "layout": "horizontal", "spacing": "xs", "contents": [
+              { "type": "text", "size": "xs", "wrap": true, "contents": [ { "type": "span", "text": "▸ ", "color": "#1D4E89" }, { "type": "span", "text": "PP相紙", "color": "#0F2742" } ] },
+              { "type": "text", "size": "xs", "wrap": true, "contents": [ { "type": "span", "text": "▸ ", "color": "#1D4E89" }, { "type": "span", "text": "高遮蔽PVC", "color": "#0F2742" } ] } ] },
+            { "type": "box", "layout": "horizontal", "spacing": "xs", "contents": [
+              { "type": "text", "size": "xs", "wrap": true, "contents": [ { "type": "span", "text": "▸ ", "color": "#1D4E89" }, { "type": "span", "text": "半透PVC", "color": "#0F2742" } ] },
+              { "type": "text", "size": "xs", "wrap": true, "contents": [ { "type": "span", "text": "▸ ", "color": "#1D4E89" }, { "type": "span", "text": "全透PVC", "color": "#0F2742" } ] } ] },
+            { "type": "box", "layout": "horizontal", "spacing": "xs", "contents": [
+              { "type": "text", "size": "xs", "wrap": true, "contents": [ { "type": "span", "text": "▸ ", "color": "#1D4E89" }, { "type": "span", "text": "半透PVC疊印", "color": "#0F2742" } ] },
+              { "type": "text", "size": "xs", "wrap": true, "contents": [ { "type": "span", "text": "▸ ", "color": "#1D4E89" }, { "type": "span", "text": "全透PVC疊印", "color": "#0F2742" } ] } ] },
+            { "type": "text", "size": "xs", "wrap": true, "contents": [ { "type": "span", "text": "▸ ", "color": "#1D4E89" }, { "type": "span", "text": "正噴燈片", "color": "#0F2742" }, { "type": "span", "text": " (疊印+10)", "color": "#5B6B7F", "size": "xxs" } ] },
+            { "type": "box", "layout": "horizontal", "spacing": "xs", "contents": [
+              { "type": "text", "size": "xs", "wrap": true, "contents": [ { "type": "span", "text": "▸ ", "color": "#1D4E89" }, { "type": "span", "text": "透視貼/洞洞貼", "color": "#0F2742" } ] },
+              { "type": "text", "size": "xs", "wrap": true, "contents": [ { "type": "span", "text": "▸ ", "color": "#1D4E89" }, { "type": "span", "text": "正面膠", "color": "#0F2742" } ] } ] },
+            { "type": "box", "layout": "horizontal", "spacing": "xs", "contents": [
+              { "type": "text", "size": "xs", "wrap": true, "contents": [ { "type": "span", "text": "▸ ", "color": "#1D4E89" }, { "type": "span", "text": "UV彩白/單白", "color": "#0F2742" }, { "type": "span", "text": " (全透)", "color": "#5B6B7F", "size": "xxs" } ] },
+              { "type": "text", "size": "xs", "wrap": true, "contents": [ { "type": "span", "text": "▸ ", "color": "#1D4E89" }, { "type": "span", "text": "UV彩白彩", "color": "#0F2742" }, { "type": "span", "text": " (半透)", "color": "#5B6B7F", "size": "xxs" } ] } ] },
+            { "type": "box", "layout": "horizontal", "spacing": "xs", "contents": [
+              { "type": "text", "size": "xs", "wrap": true, "contents": [ { "type": "span", "text": "▸ ", "color": "#1D4E89" }, { "type": "span", "text": "UV彩白/單白", "color": "#0F2742" }, { "type": "span", "text": " (超透)", "color": "#5B6B7F", "size": "xxs" } ] },
+              { "type": "text", "size": "xs", "wrap": true, "contents": [ { "type": "span", "text": "▸ ", "color": "#1D4E89" }, { "type": "span", "text": "UV彩白彩", "color": "#0F2742" }, { "type": "span", "text": " (靜電)", "color": "#5B6B7F", "size": "xxs" } ] } ] }
+          ] },
+
+          { "type": "text", "size": "sm", "margin": "xl", "contents": [
+            { "type": "span", "text": "■ ", "color": "#E4007F" },
+            { "type": "span", "text": "布類材質", "color": "#0F2742", "weight": "bold" } ] },
+          { "type": "separator", "margin": "sm", "color": "#E2E8F0" },
+          { "type": "box", "layout": "vertical", "margin": "md", "spacing": "sm", "contents": [
+            { "type": "text", "size": "xs", "wrap": true, "contents": [ { "type": "span", "text": "▸ ", "color": "#1D4E89" }, { "type": "span", "text": "帆布", "color": "#0F2742" }, { "type": "span", "text": " (※布管/上下高週波另加)", "color": "#5B6B7F", "size": "xxs" } ] },
+            { "type": "box", "layout": "horizontal", "spacing": "xs", "contents": [
+              { "type": "text", "size": "xs", "wrap": true, "contents": [ { "type": "span", "text": "▸ ", "color": "#1D4E89" }, { "type": "span", "text": "單透布", "color": "#0F2742" } ] },
+              { "type": "text", "size": "xs", "wrap": true, "contents": [ { "type": "span", "text": "▸ ", "color": "#1D4E89" }, { "type": "span", "text": "雙透布", "color": "#0F2742" } ] } ] },
+            { "type": "box", "layout": "horizontal", "spacing": "xs", "contents": [
+              { "type": "text", "size": "xs", "wrap": true, "contents": [ { "type": "span", "text": "▸ ", "color": "#1D4E89" }, { "type": "span", "text": "珍珠畫布", "color": "#0F2742" } ] },
+              { "type": "text", "size": "xs", "wrap": true, "contents": [ { "type": "span", "text": "▸ ", "color": "#1D4E89" }, { "type": "span", "text": "油畫布", "color": "#0F2742" } ] } ] },
+            { "type": "box", "layout": "horizontal", "spacing": "xs", "contents": [
+              { "type": "text", "size": "xs", "wrap": true, "contents": [ { "type": "span", "text": "▸ ", "color": "#1D4E89" }, { "type": "span", "text": "無接縫", "color": "#0F2742" }, { "type": "span", "text": " (單噴)", "color": "#5B6B7F", "size": "xxs" } ] },
+              { "type": "text", "size": "xs", "wrap": true, "contents": [ { "type": "span", "text": "▸ ", "color": "#1D4E89" }, { "type": "span", "text": "無接縫", "color": "#0F2742" }, { "type": "span", "text": " (雙噴/彩白彩)", "color": "#5B6B7F", "size": "xxs" } ] } ] }
+          ] }
+        ]
+      },
+      "footer": {
+        "type": "box", "layout": "vertical", "paddingAll": "16px", "paddingTop": "0px",
+        "contents": [
+          { "type": "box", "layout": "vertical", "backgroundColor": "#1D4E89", "cornerRadius": "8px", "paddingAll": "12px",
+            "action": { "type": "uri", "label": "立即來電洽詢", "uri": "tel:073723159" },
+            "contents": [ { "type": "text", "text": "立即來電洽詢", "color": "#FFFFFF", "weight": "bold", "align": "center" } ] }
+        ]
+      },
+      "styles": {
+        "body": { "backgroundColor": "#FFFFFF" },
+        "footer": { "backgroundColor": "#FFFFFF" }
+      }
+    },
+    {
+      "type": "bubble",
+      "body": {
+        "type": "box", "layout": "vertical", "paddingAll": "20px",
+        "contents": [
+          { "type": "text", "size": "xs", "contents": [
+            { "type": "span", "text": "■", "color": "#00A0E9", "size": "xxs" },
+            { "type": "span", "text": "■", "color": "#E4007F", "size": "xxs" },
+            { "type": "span", "text": "■", "color": "#FFE100", "size": "xxs" },
+            { "type": "span", "text": "■ ", "color": "#231F20", "size": "xxs" },
+            { "type": "span", "text": "PORTFOLIO", "color": "#1D4E89", "weight": "bold" } ] },
+          { "type": "text", "text": "噴畫作品集", "color": "#0F2742", "size": "xl", "weight": "bold", "margin": "sm" },
+          { "type": "text", "text": "實際輸出成品", "color": "#5B6B7F", "size": "sm", "margin": "xs" },
+          { "type": "box", "layout": "horizontal", "margin": "md", "spacing": "2px", "height": "4px", "contents": [
+            { "type": "box", "layout": "vertical", "contents": [], "height": "4px", "cornerRadius": "1px", "backgroundColor": "#00A0E9" },
+            { "type": "box", "layout": "vertical", "contents": [], "height": "4px", "cornerRadius": "1px", "backgroundColor": "#E4007F" },
+            { "type": "box", "layout": "vertical", "contents": [], "height": "4px", "cornerRadius": "1px", "backgroundColor": "#FFE100" },
+            { "type": "box", "layout": "vertical", "contents": [], "height": "4px", "cornerRadius": "1px", "backgroundColor": "#231F20" } ] },
+          { "type": "text", "text": "點照片看大圖", "color": "#5B6B7F", "size": "xxs", "align": "end", "margin": "lg" },
+          { "type": "box", "layout": "horizontal", "margin": "sm", "spacing": "3px", "cornerRadius": "12px", "borderWidth": "1px", "borderColor": "#E2E8F0", "contents": [
+            { "type": "image", "url": "https://a0968759450-ctrl.github.io/card/pks1.jpg", "flex": 2, "size": "full", "aspectRatio": "59:60", "aspectMode": "cover",
+              "action": { "type": "uri", "label": "看大圖", "uri": "https://a0968759450-ctrl.github.io/card/pks1.jpg" } },
+            { "type": "box", "layout": "vertical", "flex": 1, "spacing": "3px", "contents": [
+              { "type": "image", "url": "https://a0968759450-ctrl.github.io/card/pks2.jpg", "size": "full", "aspectRatio": "1:1", "aspectMode": "cover",
+                "action": { "type": "uri", "label": "看大圖", "uri": "https://a0968759450-ctrl.github.io/card/pks2.jpg" } },
+              { "type": "image", "url": "https://a0968759450-ctrl.github.io/card/pks3.jpg", "size": "full", "aspectRatio": "1:1", "aspectMode": "cover",
+                "action": { "type": "uri", "label": "看大圖", "uri": "https://a0968759450-ctrl.github.io/card/pks3.jpg" } } ] } ] }
+        ]
+      },
+      "footer": {
+        "type": "box", "layout": "vertical", "paddingAll": "16px", "paddingTop": "0px",
+        "contents": [
+          { "type": "box", "layout": "vertical", "backgroundColor": "#1D4E89", "cornerRadius": "8px", "paddingAll": "12px",
+            "action": { "type": "uri", "label": "撥打電話", "uri": "tel:073723159" },
+            "contents": [ { "type": "text", "text": "撥打電話", "color": "#FFFFFF", "weight": "bold", "align": "center" } ] }
+        ]
+      },
+      "styles": {
+        "body": { "backgroundColor": "#FFFFFF" },
+        "footer": { "backgroundColor": "#FFFFFF" }
+      }
+    }
+  ]
+}
